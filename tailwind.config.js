@@ -4,8 +4,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
-  },
+    extend: {
+      fontFamily:{
+       
+        'asap' : ['Asap Condensed', 'sans-serif'],
+          
+        },
+        
+      },
+    },
   plugins: [],
 }
 
